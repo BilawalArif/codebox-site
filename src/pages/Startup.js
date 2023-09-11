@@ -97,13 +97,13 @@ const Startup = () => {
                         </div>
                         <div className="row">
                             <div className="col-lg-10 offset-lg-1 mt--50">
-                                <TimelineTwo classVar="no-gradient"  />
+                                <TimelineTwo  />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <Separator />
+                {/* <Separator />
                 <div className="rwt-elements-area rn-section-gap">
                     <div className="container-fluid plr--30">
                         <div className="row">
@@ -119,7 +119,7 @@ const Startup = () => {
                         </div>
                         <PortfolioOne Column="col-lg-4 col-md-6 mt--30 box-grid-layout no-overlay" />
                     </div>
-                </div>
+                </div> */}
 
                 <Separator />
                 {/* Start Service Area  */}
@@ -148,7 +148,7 @@ const Startup = () => {
                 
 
                 <Separator />
-                <div className="blog-area rn-section-gap">
+                {/* <div className="blog-area rn-section-gap">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -169,7 +169,7 @@ const Startup = () => {
                             ))}
                         </div>
                     </div>
-                </div> 
+                </div>  */}
 
                 <FooterTwo />
             </main>

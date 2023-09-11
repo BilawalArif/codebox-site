@@ -82,7 +82,7 @@ const AboutTwo = () => {
                   animateOnce={true}
                 >
                   <div className="read-more-btn mt--40">
-                    <Link className="btn-default btn-icon" to="#">
+                    <Link className="btn-default btn-icon" to="/about-us">
                       More About Us{" "}
                       <i className="icon">
                         <FiArrowRight />

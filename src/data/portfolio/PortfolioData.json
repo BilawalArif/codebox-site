@@ -8,9 +8,13 @@
         "date": "30 May 2021",
         "client": "Rainbow Themes",
         "category": "development",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "awards": [
+            "2020 Design beautiful apps Finale Awards"
+        ],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": [
+            "<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"
+        ],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
@@ -34,7 +38,6 @@
             "imageThree": "images/portfolio/portfolio-03.jpg"
         }
     },
-
     {
         "id": 2,
         "portfolioImage": "./images/portfolio/portfolio-02.jpg",
@@ -44,9 +47,13 @@
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "design",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "awards": [
+            "2020 Design beautiful apps Finale Awards"
+        ],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": [
+            "<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"
+        ],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
@@ -70,7 +77,6 @@
             "imageThree": "images/portfolio/portfolio-03.jpg"
         }
     },
-
     {
         "id": 3,
         "portfolioImage": "./images/portfolio/portfolio-03.jpg",
@@ -80,9 +86,13 @@
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "art",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "awards": [
+            "2020 Design beautiful apps Finale Awards"
+        ],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": [
+            "<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"
+        ],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
@@ -106,7 +116,6 @@
             "imageThree": "images/portfolio/portfolio-03.jpg"
         }
     },
-
     {
         "id": 4,
         "portfolioImage": "./images/portfolio/portfolio-04.jpg",
@@ -116,9 +125,13 @@
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "development",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "awards": [
+            "2020 Design beautiful apps Finale Awards"
+        ],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": [
+            "<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"
+        ],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
@@ -142,7 +155,6 @@
             "imageThree": "images/portfolio/portfolio-04.jpg"
         }
     },
-
     {
         "id": 5,
         "portfolioImage": "./images/portfolio/portfolio-05.jpg",
@@ -152,9 +164,13 @@
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "design",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "awards": [
+            "2020 Design beautiful apps Finale Awards"
+        ],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": [
+            "<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"
+        ],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
@@ -178,7 +194,6 @@
             "imageThree": "images/portfolio/portfolio-03.jpg"
         }
     },
-
     {
         "id": 6,
         "portfolioImage": "./images/portfolio/portfolio-06.jpg",
@@ -188,9 +203,13 @@
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "design",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "awards": [
+            "2020 Design beautiful apps Finale Awards"
+        ],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": [
+            "<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"
+        ],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
@@ -214,7 +233,6 @@
             "imageThree": "images/portfolio/portfolio-06.jpg"
         }
     },
-
     {
         "id": 7,
         "portfolioImage": "./images/portfolio/portfolio-07.jpg",
@@ -224,9 +242,13 @@
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "design",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "awards": [
+            "2020 Design beautiful apps Finale Awards"
+        ],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": [
+            "<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"
+        ],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
@@ -250,7 +272,6 @@
             "imageThree": "images/portfolio/portfolio-03.jpg"
         }
     },
-
     {
         "id": 8,
         "portfolioImage": "./images/portfolio/portfolio-08.jpg",
@@ -260,9 +281,13 @@
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "design",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "awards": [
+            "2020 Design beautiful apps Finale Awards"
+        ],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": [
+            "<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"
+        ],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
@@ -286,7 +311,6 @@
             "imageThree": "images/portfolio/portfolio-03.jpg"
         }
     },
-
     {
         "id": 9,
         "portfolioImage": "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXBwJTIwRGV2ZWxvcG1lbnQlMjAxMjcwKjk1MHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60",
@@ -296,9 +320,13 @@
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "design",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "awards": [
+            "2020 Design beautiful apps Finale Awards"
+        ],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": [
+            "<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"
+        ],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
