@@ -5,22 +5,22 @@ const TimelineData = [
     {
         id: "1",
         title: "Knowledge",
-        description: "Present all available features in Essentials.",
+        description: "Understanding Your Needs",
     },
     {
         id: "2",
         title: "Working",
-        description: "All Feature available features in Essentials.",
+        description: "Executing with Precision",
     },
     {
         id: "3",
         title: "Solution",
-        description: "Popular Feature available features in Essentials.",
+        description: "Delivering Effective Results",
     },
     {
         id: "4",
         title: "Process",
-        description: "Latest Feature available features in Essentials.",
+        description: "Streamlined Development Approach",
     },
 ]
 

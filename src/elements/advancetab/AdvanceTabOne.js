@@ -11,20 +11,32 @@ const AdvanceTabOne = () => {
                             <TabList className="tab-button-list">
                                 <Tab>
                                     <div className="tab-button">
-                                        <h4 className="title">Market Researce.</h4>
-                                        <p className="description">Use Doob template you can build a corporate website a short time.</p>
+                                        <h4 className="title">Faster than a Speeding Algorithm</h4>
+                                        {/* <p className="description">Use Doob template you can build a corporate website a short time.</p> */}
                                     </div>   
                                 </Tab>
                                 <Tab>
                                     <div className="tab-button">
-                                        <h4 className="title">Corporate Report.</h4>
-                                        <p className="description">Use Doob template you can build a corporate website a short time.</p>
+                                        <h4 className="title">Expert Code Conjurers</h4>
+                                        {/* <p className="description">Use Doob template you can build a corporate website a short time.</p> */}
                                     </div>   
                                 </Tab>
                                 <Tab>
                                     <div className="tab-button">
-                                        <h4 className="title">App Development.</h4>
-                                        <p className="description">Use Doob template you can build a corporate website a short time.</p>
+                                        <h4 className="title">Custom Spells for Every App</h4>
+                                        {/* <p className="description">Use Doob template you can build a corporate website a short time.</p> */}
+                                    </div>   
+                                </Tab>
+                                <Tab>
+                                    <div className="tab-button">
+                                        <h4 className="title">Geeky Meets Chic Design</h4>
+                                        {/* <p className="description">Use Doob template you can build a corporate website a short time.</p> */}
+                                    </div>   
+                                </Tab>
+                                <Tab>
+                                    <div className="tab-button">
+                                        <h4 className="title">Support That's Out of This World</h4>
+                                        {/* <p className="description">Use Doob template you can build a corporate website a short time.</p> */}
                                     </div>   
                                 </Tab>
                             </TabList>
@@ -36,7 +48,7 @@ const AdvanceTabOne = () => {
                                 <div className="tab-content">
                                     <div className="inner">
                                         <div className="thumbnail">
-                                            <img src="./images/tab/tabs-02.jpg" alt="Corporate Images" />
+                                            <img src="./images/tab/1692893861436.jpeg" alt="Corporate Images" />
                                         </div>
                                     </div>
                                 </div>
@@ -46,7 +58,7 @@ const AdvanceTabOne = () => {
                                 <div className="tab-content">
                                     <div className="inner">
                                         <div className="thumbnail">
-                                            <img src="./images/tab/tabs-03.jpg" alt="Corporate Images" />
+                                            <img src="./images/tab/1692893877620.jpeg" alt="Corporate Images" />
                                         </div>
                                     </div>
                                 </div>
@@ -56,7 +68,25 @@ const AdvanceTabOne = () => {
                                 <div className="tab-content">
                                     <div className="inner">
                                         <div className="thumbnail">
-                                            <img src="./images/tab/tabs-04.jpg" alt="Corporate Images" />
+                                            <img src="./images/tab/1692893877574.jpeg" alt="Corporate Images" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </TabPanel>
+                            <TabPanel>
+                                <div className="tab-content">
+                                    <div className="inner">
+                                        <div className="thumbnail">
+                                            <img src="./images/tab/1692893877721.jpeg" alt="Corporate Images" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </TabPanel>
+                            <TabPanel>
+                                <div className="tab-content">
+                                    <div className="inner">
+                                        <div className="thumbnail">
+                                            <img src="./images/tab/1692893877675.jpeg" alt="Corporate Images" />
                                         </div>
                                     </div>
                                 </div>

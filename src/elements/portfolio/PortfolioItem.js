@@ -14,7 +14,7 @@ const PortfolioItem = ({ portfolio }) => {
                 className="img-fluid"
                 src={portfolio.portfolioImage}
                 alt="Portfolio-01"
-                // style={{ height: "1270", width: "950" }}
+                style={{ height: "400px", width: "500px" }}
               />
             </Link>
           </figure>

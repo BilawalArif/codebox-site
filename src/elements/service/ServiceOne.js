@@ -7,18 +7,19 @@ const ServiceList = [
     {
         icon: <FiActivity />,
         title: 'Web Development',
-        description: 'There are many variations variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        description: 'Crafting Dynamic Websites'
     },
     {
         icon: <FiCast />,
         title: 'Design & Creative',
-        description: 'Passages there are many variations variations  of of Lorem Ipsum available, but the majority have suffered.'
+        description: 'Inspiring Visual Solutions'
     },
     {
         icon: <FiMap />,
         title: 'App Development',
-        description: 'Variations There are many variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        description: 'Building Innovative Mobile Apps'
     },
+    
 ]
 
 const ServiceOne = ({textAlign, serviceStyle}) => {

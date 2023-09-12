@@ -12,6 +12,7 @@ import TeamFour from "../elements/team/TeamFour";
 import TimelineTwo from "../elements/timeline/TimelineTwo";
 import Separator from "../elements/separator/Separator";
 import AboutTwo from "../elements/about/AboutTwo";
+import AccordionOne from "../elements/accordion/AccordionOne";
 
 const AboutUs = () => {
   return (
@@ -115,11 +116,33 @@ const AboutUs = () => {
         </div>
         {/* End Service Area  */}
 
-        <div className="rwt-timeline-area rn-section-gapBottom">
+        {/* <div className="rwt-timeline-area rn-section-gapBottom">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <TimelineTwo classVar="no-gradient" />
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+        <div className="rn-accordion-area rn-section-gap">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-10 offset-lg-1">
+                <SectionTitle
+                  textAlign="text-center"
+                  radiusRounded=""
+                  subtitle="FAQ's"
+                  title="
+                  Frequently Asked Questions"
+                  description=""
+                />
+              </div>
+            </div>
+            <div className="row mt--35 row--20">
+              <div className="col-lg-10 offset-lg-1">
+                <AccordionOne customStyle="rn-accordion-04" />
               </div>
             </div>
           </div>

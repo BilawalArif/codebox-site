@@ -16,7 +16,7 @@ const SectionTitle = ({subtitle, title, description, textAlign, radiusRounded}) 
             animateIn="fadeInUp"
             animateOut="fadeInOut"
             animateOnce={true}>
-                <h2 className="title w-600 mb--20" dangerouslySetInnerHTML={{__html: title}}></h2>
+                <h2 className="theme-gradient" dangerouslySetInnerHTML={{__html: title}}></h2>
             </ScrollAnimation>
 
             <ScrollAnimation 

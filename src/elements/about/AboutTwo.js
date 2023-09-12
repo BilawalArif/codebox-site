@@ -12,7 +12,7 @@ const AboutTwo = () => {
             <div className="thumbnail">
               <img
                 className="w-100"
-                src="https://images.unsplash.com/photo-1579403124614-197f69d8187b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60"
+                src={`${process.env.PUBLIC_URL}images/about/1692807204649.jpeg`}
                 alt="About Images"
                 style={{ height: "543px", width: "642px" }}
               />
@@ -28,9 +28,9 @@ const AboutTwo = () => {
                   animateOnce={true}
                 >
                   <h4 className="subtitle">
-                    <span className="theme-gradient">Corporate About.</span>
+                    <span className="theme-gradient">Enterprise About.</span>
                   </h4>
-                  <h2 className="title mt--10">About Our Business.</h2>
+                  <h2 className="theme-gradient">About Our Business.</h2>
                 </ScrollAnimation>
 
                 <ScrollAnimation
