@@ -30,7 +30,7 @@ const AboutTwo = () => {
                   <h4 className="subtitle">
                     <span className="theme-gradient">Enterprise About.</span>
                   </h4>
-                  <h2 className="theme-gradient">About Our Business.</h2>
+                  <h2 className="title mt--10">About Our Business.</h2>
                 </ScrollAnimation>
 
                 <ScrollAnimation

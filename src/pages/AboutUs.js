@@ -17,7 +17,7 @@ import AccordionOne from "../elements/accordion/AccordionOne";
 const AboutUs = () => {
   return (
     <>
-      <SEO title="About Us" />
+      <SEO title="CodeBox || About Us" />
       <main className="page-wrapper">
         {/* <HeaderTopNews /> */}
         <HeaderOne

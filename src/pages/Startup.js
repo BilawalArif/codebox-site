@@ -38,7 +38,7 @@ const BannerData = [
 const Startup = () => {
   return (
     <>
-      <SEO title="Startup Agency" />
+      <SEO title="CodeBox || Home" />
       <main className="page-wrapper">
         <HeaderOne
           btnStyle="btn-small btn-icon round"
@@ -63,7 +63,7 @@ const Startup = () => {
                     <div className="col-lg-12">
                       <div className="inner text-center">
                         <h1
-                          className="theme-gradient"
+                          className="title display-one"
                           style={{ fontSize: "70px"}}
                           dangerouslySetInnerHTML={{ __html: data.title }}
                         ></h1>

@@ -13,15 +13,7 @@ const teamData = [
       "Yes, I am a product designer. I have a passion for product design.",
     socialNetwork: [
       {
-        icon: <FiFacebook />,
-        url: "#",
-      },
-      {
-        icon: <FiTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FiInstagram />,
+        icon: <FiLinkedin />,
         url: "#",
       },
     ],
@@ -34,14 +26,6 @@ const teamData = [
     description:
       "Yes, I am a product designer. I have a passion for product design.",
     socialNetwork: [
-      {
-        icon: <FiFacebook />,
-        url: "#",
-      },
-      {
-        icon: <FiTwitter />,
-        url: "#",
-      },
       {
         icon: <FiLinkedin />,
         url: "#",
@@ -57,15 +41,7 @@ const teamData = [
       "Yes, I am a product designer. I have a passion for product design.",
     socialNetwork: [
       {
-        icon: <FiFacebook />,
-        url: "#",
-      },
-      {
-        icon: <FiTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FiInstagram />,
+        icon: <FiLinkedin />,
         url: "#",
       },
     ],
@@ -104,13 +80,13 @@ const TeamOne = ({ column, teamStyle }) => {
                   </span>
                   <p className="description">{data.description}</p>
 
-                  <ul className="social-icon social-default icon-naked mt--20">
+                  {/* <ul className="social-icon social-default icon-naked mt--20">
                     {data.socialNetwork.map((social, index) => (
                       <li key={index}>
                         <a href={`${social.url}`}>{social.icon}</a>
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </figcaption>
               </div>
             </ScrollAnimation>

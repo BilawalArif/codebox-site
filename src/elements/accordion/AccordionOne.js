@@ -108,6 +108,61 @@ const AccordionOne = ({ customStyle }) => {
           </Card.Body>
         </Accordion.Collapse>
       </Card>
+      <Card>
+        <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey="7">
+            How much do you charge for software development?{" "}
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="7">
+          <Card.Body>
+            We charge market-competitive prices which are quoted to the customer
+            during the preliminary call.
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
+      <Card>
+        <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey="8">
+            How much do you charge for design?{" "}
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="8">
+          <Card.Body>
+            We charge market-competitive prices which are quoted to the customer
+            during the preliminary call.
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
+      <Card>
+        <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey="9">
+            How can I test your skills before working with you?{" "}
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="9">
+          <Card.Body>
+            You can put our resources through extensive evaluation, both through
+            interviews and test assignments. You will only pay for their time if
+            you decide to hire them.
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
+      <Card>
+        <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey="10">
+            Why should I work with an agency rather than a freelancer?
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="10">
+          <Card.Body>
+            An agency provides you one resource with a team of multiple
+            professionals behind them. Scaling up your project is much easier
+            and efficient with an agency than a freelancer. An agency can
+            fulfill a diverse set of needs from design to development.
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
     </Accordion>
   );
 };

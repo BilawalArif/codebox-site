@@ -12,7 +12,7 @@ const Layout = ({children}) => {
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
                 {children}
                 <FooterTwo />
-                <Copyright />
+                {/* <Copyright /> */}
             </main>
         </>
     )

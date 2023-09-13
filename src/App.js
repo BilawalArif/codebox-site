@@ -70,6 +70,7 @@ import Error from "./pages/Error";
 
 // Import Css Here 
 import './assets/scss/style.scss';
+import FAQ from './pages/FAQ\'s';
 
 
 const App = () => {
@@ -128,6 +129,8 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/advance-tab"}`} exact component={AdvanceTab}/>
                     <Route path={`${process.env.PUBLIC_URL + "/advance-pricing"}`} exact component={AdvancePricing}/>
                     <Route path={`${process.env.PUBLIC_URL + "/about-us"}`} exact component={AboutUs}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/faqs"}`} exact component={FAQ}/>
+
 
                     <Route path={`${process.env.PUBLIC_URL + "/error"}`} exact component={Error}/>
                     

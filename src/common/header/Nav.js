@@ -32,57 +32,119 @@ const Nav = () => {
         <Link to="/about-us">About</Link>
       </li>
 
-      <li className="with-megamenu"><Link to="#">Elements</Link>
-                <div className="rn-megamenu">
-                    <div className="wrapper">
-                        <div className="row row--0">
-                            <div className="col-lg-3 single-mega-item">
-                                <ul className="mega-menu-item">
-                                    <li><Link to="/button">Button</Link></li>
-                                    <li><Link to="/service">Service</Link></li>
-                                    <li><Link to="/counter">Counter</Link></li>
-                                    <li><Link to="/progressbar">Progressbar</Link></li>
-                                    <li><Link to="/accordion">Accordion</Link></li>
-                                    <li><Link to="/social-share">Social Share</Link></li>
-                                    <li><Link to="/blog-grid">Blog Grid</Link></li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-3 single-mega-item">
-                                <ul className="mega-menu-item">
-                                    <li><Link to="/team">Team</Link></li>
-                                    <li><Link to="/portfolio">Portfolio</Link></li>
-                                    <li><Link to="/testimonial">Testimonial</Link></li>
-                                    <li><Link to="/timeline">Timeline</Link></li>
-                                    <li><Link to="/tab">Tab</Link></li>
-                                    <li><Link to="/pricing">Pricing</Link></li>
-                                    <li><Link to="/split">Split Section</Link></li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-3 single-mega-item">
-                                <ul className="mega-menu-item">
-                                    <li><Link to="/call-to-action">Call To Action</Link></li>
-                                    <li><Link to="/video-popup">Video</Link></li>
-                                    <li><Link to="/gallery">Gallery</Link></li>
-                                    <li><Link to="/contact">Contact</Link></li>
-                                    <li><Link to="/brand">Brand</Link></li>
-                                    <li><Link to="/portfolio">Portfolio</Link></li>
-                                    <li><Link to="/error">404</Link></li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-3 single-mega-item">
-                                <ul className="mega-menu-item">
-                                    <li><Link to="/advance-tab">Advance Tab <span className="rn-badge-card">Hot</span></Link></li>
-                                    <li><Link to="#">Brand Carousel <span className="rn-badge-card">Comming</span></Link></li>
-                                    <li><Link to="advance-pricing">Advance Pricing <span className="rn-badge-card">Hot</span></Link></li>
-                                    <li><Link to="/portfolio-details/1">Portfolio Details</Link></li>
-                                    <li><Link to="/blog-details/1">Blog Details</Link></li>
-                                    <li><Link to="/error">404 Page</Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
+      {/* <li className="with-megamenu">
+        <Link to="#">Elements</Link>
+        <div className="rn-megamenu">
+          <div className="wrapper">
+            <div className="row row--0">
+              <div className="col-lg-3 single-mega-item">
+                <ul className="mega-menu-item">
+                  <li>
+                    <Link to="/button">Button</Link>
+                  </li>
+                  <li>
+                    <Link to="/service">Service</Link>
+                  </li>
+                  <li>
+                    <Link to="/counter">Counter</Link>
+                  </li>
+                  <li>
+                    <Link to="/progressbar">Progressbar</Link>
+                  </li>
+                  <li>
+                    <Link to="/accordion">Accordion</Link>
+                  </li>
+                  <li>
+                    <Link to="/social-share">Social Share</Link>
+                  </li>
+                  <li>
+                    <Link to="/blog-grid">Blog Grid</Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-lg-3 single-mega-item">
+                <ul className="mega-menu-item">
+                  <li>
+                    <Link to="/team">Team</Link>
+                  </li>
+                  <li>
+                    <Link to="/portfolio">Portfolio</Link>
+                  </li>
+                  <li>
+                    <Link to="/testimonial">Testimonial</Link>
+                  </li>
+                  <li>
+                    <Link to="/timeline">Timeline</Link>
+                  </li>
+                  <li>
+                    <Link to="/tab">Tab</Link>
+                  </li>
+                  <li>
+                    <Link to="/pricing">Pricing</Link>
+                  </li>
+                  <li>
+                    <Link to="/split">Split Section</Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-lg-3 single-mega-item">
+                <ul className="mega-menu-item">
+                  <li>
+                    <Link to="/call-to-action">Call To Action</Link>
+                  </li>
+                  <li>
+                    <Link to="/video-popup">Video</Link>
+                  </li>
+                  <li>
+                    <Link to="/gallery">Gallery</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact</Link>
+                  </li>
+                  <li>
+                    <Link to="/brand">Brand</Link>
+                  </li>
+                  <li>
+                    <Link to="/portfolio">Portfolio</Link>
+                  </li>
+                  <li>
+                    <Link to="/error">404</Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-lg-3 single-mega-item">
+                <ul className="mega-menu-item">
+                  <li>
+                    <Link to="/advance-tab">
+                      Advance Tab <span className="rn-badge-card">Hot</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="#">
+                      Brand Carousel{" "}
+                      <span className="rn-badge-card">Comming</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="advance-pricing">
+                      Advance Pricing <span className="rn-badge-card">Hot</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/portfolio-details/1">Portfolio Details</Link>
+                  </li>
+                  <li>
+                    <Link to="/blog-details/1">Blog Details</Link>
+                  </li>
+                  <li>
+                    <Link to="/error">404 Page</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li> */}
 
       {/* <li className="has-droupdown"><Link to="/blog-list-view">Blog</Link>
                 <ul className="submenu">
@@ -105,6 +167,9 @@ const Nav = () => {
 
       <li className="has-droupdown">
         <Link to="/contact">Contact</Link>
+      </li>
+      <li>
+        <Link to="/faqs">FAQ's</Link>
       </li>
     </ul>
   );

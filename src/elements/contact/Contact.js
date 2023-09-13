@@ -8,14 +8,14 @@ import ContactOne from "./ContactOne";
 const Contact = () => {
     return (
         <>
-            <SEO title="Contact || Doob - React Business  Template" />
+            <SEO title="CodeBox || Contact" />
             <Layout>
-                <BreadcrumbOne 
+                {/* <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
                     rootUrl="/"
                     parentUrl="Home"
                     currentUrl="Contact"
-                />
+                /> */}
                 <div className="main-content">
                     {/* Start Contact Area  */}
                     <div className="rwt-contact-area rn-section-gap">
