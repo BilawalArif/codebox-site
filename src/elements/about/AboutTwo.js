@@ -14,7 +14,6 @@ const AboutTwo = () => {
                 className="w-100"
                 src={`${process.env.PUBLIC_URL}images/about/1692807204649.jpeg`}
                 alt="About Images"
-                style={{ height: "543px", width: "642px" }}
               />
             </div>
           </div>

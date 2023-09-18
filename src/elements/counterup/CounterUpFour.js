@@ -8,7 +8,7 @@ const Data = [
         countTitle: 'Happy Clients.',
     },
     {
-        countNum : 575,
+        countNum : 75,
         countTitle: 'Employees',
     },
     {
@@ -17,7 +17,7 @@ const Data = [
     },
     {
         countNum : 500,
-        countTitle: 'Useful Programs',
+        countTitle: 'Softwares',
     },
 ];
 const CounterUpFour = ({textALign, counterStyle, column}) => {

@@ -1,54 +1,7 @@
 import React from "react";
-import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
-import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 
-const teamData = [
-  {
-    image: "bazil.jpeg",
-    name: "Bazil Ali",
-    designation: "CEO",
-    location: "Lahore, Punjab",
-    description:
-      "Yes, I am a product designer. I have a passion for product design.",
-    socialNetwork: [
-      {
-        icon: <FiLinkedin />,
-        url: "#",
-      },
-    ],
-  },
-  {
-    image: "team-02.jpg",
-    name: "Afsana Nila",
-    designation: "App Developer",
-    location: "Bangladesh",
-    description:
-      "Yes, I am a product designer. I have a passion for product design.",
-    socialNetwork: [
-      {
-        icon: <FiLinkedin />,
-        url: "#",
-      },
-    ],
-  },
-  {
-    image: "team-03.jpg",
-    name: "Afanan Sifa",
-    designation: "Accounts Manager",
-    location: "Poland",
-    description:
-      "Yes, I am a product designer. I have a passion for product design.",
-    socialNetwork: [
-      {
-        icon: <FiLinkedin />,
-        url: "#",
-      },
-    ],
-  },
-];
-
-const TeamOne = ({ column, teamStyle }) => {
+const TeamOne = ({ column, teamStyle, teamData }) => {
   return (
     <div className="row row--15">
       {teamData.map((data, index) => (
@@ -64,9 +17,10 @@ const TeamOne = ({ column, teamStyle }) => {
                   <img
                     src={`./images/team/${data.image}`}
                     alt="Corporate React Template"
+                    style={{objectFit: "cover"}}
                   />
                 </figure>
-                <figcaption className="content">
+                <figcaption className="content" style={{minHeight:"360px"}}>
                   <h2 className="title">{data.name}</h2>
                   <h6 className="subtitle theme-gradient">
                     {data.designation}

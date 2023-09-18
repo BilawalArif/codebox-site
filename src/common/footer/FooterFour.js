@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CalltoActionSeven from "../../elements/calltoaction/CalltoActionSeven";
 import footerOne from "../../data/footer/footerOne.json";
 import ScrollTop from "./ScrollTop";
 import NewsletterOne from "./NewsletterOne";
-import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
+import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 
 const footerIntem = footerOne[0];
 const footerIntemOne = footerOne[1];
@@ -16,6 +15,7 @@ const footerIntemFive = footerOne[5];
 const indexOneLink = footerIntemOne.quicklink;
 const indexTwoLink = footerIntemTwo.quicklink;
 const indexThreeLink = footerIntemThree.quicklink;
+const indexFourLink = footerIntemFour.quicklink;
 
 const FooterFour = () => {
   return (
@@ -52,7 +52,7 @@ const FooterFour = () => {
                     <h4 className="title">{footerIntemTwo.title}</h4>
                     <div className="inner">
                       <ul className="footer-link link-hover">
-                        {indexThreeLink.map((data, index) => (
+                        {indexTwoLink.map((data, index) => (
                           <li key={index}>
                             <Link to={`${data.url}`}>{data.text}</Link>
                           </li>
@@ -70,7 +70,7 @@ const FooterFour = () => {
                   <h4 className="title">{footerIntemThree.title}</h4>
                   <div className="inner">
                     <ul className="footer-link link-hover">
-                      {indexTwoLink.map((data, index) => (
+                      {indexThreeLink.map((data, index) => (
                         <li key={index}>
                           <Link to={`${data.url}`}>{data.text}</Link>
                         </li>
@@ -87,7 +87,7 @@ const FooterFour = () => {
                   <h4 className="title">{footerIntemFour.title}</h4>
                   <div className="inner">
                     <ul className="footer-link link-hover">
-                      {indexTwoLink.map((data, index) => (
+                      {indexFourLink.map((data, index) => (
                         <li key={index}>
                           <Link to={`${data.url}`}>{data.text}</Link>
                         </li>
@@ -104,7 +104,7 @@ const FooterFour = () => {
                   <h4 className="title">{footerIntemFive.title}</h4>
                   <div className="inner">
                     <h6 className="subtitle">{footerIntemFive.subtitle}</h6>
-                    <ul className="social-icon social-default justify-content-start">
+                    <ul className="social-icon social-default with-bg-primary justify-content-start">
                       <li>
                         <Link to="facebook.com">
                           <FiFacebook />

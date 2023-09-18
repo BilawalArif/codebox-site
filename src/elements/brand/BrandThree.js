@@ -28,6 +28,13 @@ const BrandList = [
     {
         image: './images/brand/brand-01.png'
     },
+    {
+        image: './images/brand/brand-09.png'
+    },
+    {
+        image: './images/brand/brand-10.png'
+    },
+  
   
 ]
 
@@ -36,7 +43,7 @@ const BrandThree = ({brandStyle}) => {
         <ul className={`brand-list ${brandStyle}`}>
             {BrandList.map((data, index) => (
                 <li key={index}>
-                    <a href="#"><img src={`${data.image}`} alt="Brand Image" /></a>
+                    <a href="#"><img src={`${data.image}`} alt="Brand Image" style={{filter: "grayscale(1)"}} /></a>
                 </li>
             ))}
         </ul>

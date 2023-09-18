@@ -4,19 +4,47 @@ import SEO from "../common/SEO";
 import HeaderOne from "../common/header/HeaderOne";
 import { BannerActivation } from "../utils/script";
 import Separator from "../elements/separator/Separator";
-import CircleProgress from "../elements/progressbar/CircleProgress";
-import PortfolioOne from "../elements/portfolio/PortfolioOne";
-import ServiceFour from "../elements/service/ServiceFour";
 import TimelineTwo from "../elements/timeline/TimelineTwo";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 import FooterTwo from "../common/footer/FooterTwo";
-import BlogList from "../components/blog/itemProp/BlogList";
-import BlogClassicData from "../data/blog/BlogList.json";
 import CircleProgressTwo from "../elements/progressbar/CircleProgressTwo";
 import AdvanceTabOne from "../elements/advancetab/AdvanceTabOne";
 import TeamOne from "../elements/team/TeamOne";
 import ServiceOne from "../elements/service/ServiceOne";
-var BlogListData = BlogClassicData.slice(0, 3);
+import CounterUpFour from "../elements/counterup/CounterUpFour";
+import Copyright from "../common/footer/Copyright";
+
+// var BlogListData = BlogClassicData.slice(0, 3);
+
+const teamData = [
+  {
+    image: "bazil.jpeg",
+    name: "Bazil Ali",
+    designation: "CEO",
+    location: "Lahore, Punjab",
+    description: "Building next-gen software",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+  {
+    image: "team-02.jpg",
+    name: "Haider",
+    designation: "App Developer",
+    location: "Bangladesh",
+    description:
+      "Yes, I am a product designer. I have a passion for product design.",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+];
 
 const BannerData = [
   {
@@ -64,7 +92,7 @@ const Startup = () => {
                       <div className="inner text-center">
                         <h1
                           className="title display-one"
-                          style={{ fontSize: "70px"}}
+                          style={{ fontSize: "70px" }}
                           dangerouslySetInnerHTML={{ __html: data.title }}
                         ></h1>
                         <p
@@ -132,7 +160,7 @@ const Startup = () => {
         </div>
 
         <Separator />
-        <div className="rwt-elements-area rn-section-gap">
+        {/* <div className="rwt-elements-area rn-section-gap">
           <div className="container-fluid plr--30">
             <div className="row">
               <div className="col-lg-12">
@@ -148,6 +176,19 @@ const Startup = () => {
             <PortfolioOne Column="col-lg-4 col-md-6 mt--30 box-grid-layout no-overlay" />
           </div>
         </div>
+        <Separator /> */}
+
+        {/* Start Elements Area  */}
+        <div className="rwt-counterup-area pb--100">
+          <div className="container mt_dec--30">
+            <CounterUpFour
+              column="col-lg-3 col-md-6 col-sm-6 col-12"
+              counterStyle="counter-style-4"
+              textALign="text-center"
+            />
+          </div>
+        </div>
+        {/* End Elements Area  */}
 
         <Separator />
         {/* Start Service Area  */}
@@ -207,14 +248,16 @@ const Startup = () => {
               </div>
             </div>
             <TeamOne
-              column="col-lg-4 col-md-6 col-12 mt--30"
+              column="col-lg-6 col-md-6 col-12 mt--30"
               teamStyle="team-style-default"
+              teamData={teamData}
             />
           </div>
         </div>
         {/* End Elements Area  */}
 
         <FooterTwo />
+        <Copyright />
       </main>
     </>
   );

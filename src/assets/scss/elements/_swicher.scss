@@ -21,12 +21,13 @@ body {
     padding: 0;
     margin-left: 10px;
     width: 40px;
-    background: var(--color-light-green);
+    background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 95%/200% 100%;
     display: flex;
     justify-content: center;
     height: 40px;
     align-items: center;
     border-radius: 100%;
+    
 }
 .my_switcher {
     display: flex;
@@ -68,6 +69,7 @@ body {
                 &.dark {
                     color: #18191A;
                 }
+                
             }
         }
     }
