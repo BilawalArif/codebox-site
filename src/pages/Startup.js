@@ -92,7 +92,6 @@ const Startup = () => {
                       <div className="inner text-center">
                         <h1
                           className="title display-one"
-                          style={{ fontSize: "70px" }}
                           dangerouslySetInnerHTML={{ __html: data.title }}
                         ></h1>
                         <p

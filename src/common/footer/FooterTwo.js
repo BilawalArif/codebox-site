@@ -17,6 +17,7 @@ const indexTwoLink = footerIntemTwo.quicklink;
 const indexThreeLink = footerIntemThree.quicklink;
 const indexFourLink = footerIntemFour.quicklink;
 
+
 const FooterTwo = () => {
   return (
     <>
@@ -28,29 +29,14 @@ const FooterTwo = () => {
               {/* Start Single Widget  */}
               <div className="col-lg-2 col-md-6 col-sm-6 col-12">
                 <div className="rn-footer-widget">
-                  <ul className="footer-link link-hover">
-                    <li>
-                      <Link to={`${footerIntemOne.url}`}>
-                        {" "}
-                        <h4 className="title">{footerIntemOne.title} </h4>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              {/* End Single Widget  */}
-
-              {/* Start Single Widget  */}
-              <div className="col-lg-2 col-md-6 col-sm-6 col-12">
-                <div className="rn-footer-widget">
-                  <div className="widget-menu-top">
-                    <ul className="footer-link link-hover">
-                      <li>
-                        <Link to={`${footerIntemTwo.url}`}>
-                          {" "}
-                          <h4 className="title">{footerIntemTwo.title} </h4>
-                        </Link>
-                      </li>
+                  <h4 className="title">{footerIntemOne.title}</h4>
+                  <div className="inner">
+                    <ul className="footer-link link-hover" >
+                      {indexOneLink.map((data, index) => (
+                        <li key={index}>
+                          <Link to={`${data.url}`}>{data.text}</Link>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -60,14 +46,18 @@ const FooterTwo = () => {
               {/* Start Single Widget  */}
               <div className="col-lg-2 col-md-6 col-sm-6 col-12">
                 <div className="rn-footer-widget">
-                  <ul className="footer-link link-hover">
-                    <li>
-                      <Link to={`${footerIntemThree.url}`}>
-                        {" "}
-                        <h4 className="title">{footerIntemThree.title} </h4>
-                      </Link>
-                    </li>
-                  </ul>
+                  <div className="widget-menu-top">
+                    <h4 className="title">{footerIntemTwo.title}</h4>
+                    <div className="inner">
+                      <ul className="footer-link link-hover">
+                        {indexTwoLink.map((data, index) => (
+                          <li key={index}>
+                            <Link to={`${data.url}`}>{data.text}</Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
               {/* End Single Widget  */}
@@ -75,14 +65,33 @@ const FooterTwo = () => {
               {/* Start Single Widget  */}
               <div className="col-lg-2 col-md-6 col-sm-6 col-12">
                 <div className="rn-footer-widget">
-                  <ul className="footer-link link-hover">
-                    <li>
-                      <Link to={`${footerIntemFour.url}`}>
-                        {" "}
-                        <h4 className="title">{footerIntemFour.title} </h4>
-                      </Link>
-                    </li>
-                  </ul>
+                  <h4 className="title">{footerIntemThree.title}</h4>
+                  <div className="inner">
+                    <ul className="footer-link link-hover">
+                      {indexThreeLink.map((data, index) => (
+                        <li key={index}>
+                          <Link to={`${data.url}`}>{data.text}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* End Single Widget  */}
+
+              {/* Start Single Widget  */}
+              <div className="col-lg-2 col-md-6 col-sm-6 col-12">
+                <div className="rn-footer-widget">
+                  <h4 className="title">{footerIntemFour.title}</h4>
+                  <div className="inner">
+                    <ul className="footer-link link-hover">
+                      {indexFourLink.map((data, index) => (
+                        <li key={index}>
+                          <Link to={`${data.url}`}>{data.text}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
               {/* End Single Widget  */}
@@ -90,9 +99,9 @@ const FooterTwo = () => {
               {/* Start Single Widget  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="rn-footer-widget">
-                  {/* <h4 className="title">{footerIntemFive.title}</h4>
+                  <h4 className="title">{footerIntemFive.title}</h4>
                   <div className="inner">
-                    <h6 className="subtitle">{footerIntemFive.subtitle}</h6> */}
+                    <h6 className="subtitle">{footerIntemFive.subtitle}</h6>
                     <ul className="social-icon social-default justify-content-start">
                       <li>
                         <a
@@ -122,7 +131,7 @@ const FooterTwo = () => {
                         </a>
                       </li>
                     </ul>
-                  {/* </div> */}
+                  </div>
                 </div>
               </div>
               {/* End Single Widget  */}

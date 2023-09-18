@@ -41,7 +41,14 @@
                 border-radius: 100%;
             }
 
-          
+            &:hover {
+                color: var(--color-white);
+
+                &::after {
+                    transform: scale(1);
+                    opacity: 1;
+                }
+            }
         }
     }
 

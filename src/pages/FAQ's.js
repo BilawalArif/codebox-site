@@ -25,8 +25,7 @@ const FAQ = () => {
                   textAlign="text-center"
                   radiusRounded=""
                   subtitle="FAQ's"
-                  title="
-                  Frequently Asked Questions"
+                  title="Frequently Asked Questions"
                   description=""
                 />
               </div>
