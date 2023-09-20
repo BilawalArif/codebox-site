@@ -2,8 +2,8 @@ import React from 'react';
 import { FiArrowRight } from "react-icons/fi";
 
 const callToActionData = {
-    title: "Ready to start creating a standard website?",
-    subtitle: "Finest choice for your home & office",
+    title: "Ready to Transform Your Online Presence?",
+    subtitle: "We Craft Websites that Speak Your Brand's Language and Drive Success.",
     btnText: "CodeBox",
 }
 
@@ -18,7 +18,7 @@ const CalltoActionTwo = () => {
                                 <h2 className="title mb--0">{callToActionData.title}</h2>
                                 <p>We help our clients succeed by creating brand identities, digital experiences, and print materials that communicate clearly.</p>
                                 <div className="call-to-btn text-center">
-                                    <a className="btn-default btn-icon" href="#">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
+                                    <a className="btn-default btn-icon" href="/">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
                                 </div>
                             </div>
                         </div>

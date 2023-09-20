@@ -48,18 +48,16 @@ const teamData = [
 
 const BannerData = [
   {
-    image:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
-    title: "Where Innovation <br /> Meets Affordability",
+    image: `/images/bg/bg-image-01.jpg`,
+    title: "Empowering Your Online Presence",
     description:
-      "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials.",
+    "We elevate businesses through captivating websites and digital experiences.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
-    title: "Where Innovation <br /> Meets Affordability",
+    image: `/images/bg/bg-image-01.jpg`,
+    title: "Digital Excellence Made Affordable",
     description:
-      "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials.",
+    "We Craft Websites that Speak Your Brand's Language and Drive Success.",
   },
 ];
 
@@ -159,23 +157,6 @@ const Startup = () => {
         </div>
 
         <Separator />
-        {/* <div className="rwt-elements-area rn-section-gap">
-          <div className="container-fluid plr--30">
-            <div className="row">
-              <div className="col-lg-12">
-                <SectionTitle
-                  textAlign="text-center"
-                  radiusRounded=""
-                  subtitle="Portfolio"
-                  title="Our Completed Project!"
-                  description=""
-                />
-              </div>
-            </div>
-            <PortfolioOne Column="col-lg-4 col-md-6 mt--30 box-grid-layout no-overlay" />
-          </div>
-        </div>
-        <Separator /> */}
 
         {/* Start Elements Area  */}
         <div className="rwt-counterup-area pb--100">
