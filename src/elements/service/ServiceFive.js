@@ -5,18 +5,18 @@ import ScrollAnimation from "react-animate-on-scroll";
 const ServiceList = [
     {
         image: '/images/service/galery-image-01.png',
-        title: 'Awarded Design',
-        description: 'There are many variations variats.'
+        title: 'Web Development',
+        description: 'Crafting Dynamic Websites'
     },
     {
         image: '/images/service/galery-image-02.png',
         title: 'Design & Creative',
-        description: 'Passages there are many variatin.'
+        description: 'Inspiring Visual Solutions'
     },
     {
         image: '/images/service/galery-image-03.png',
         title: 'App Development',
-        description: 'Variations There are many of pass.'
+        description: 'Building Innovative Mobile Apps'
     }
 ]
 const ServiceFive = ({textAlign, serviceStyle}) => {

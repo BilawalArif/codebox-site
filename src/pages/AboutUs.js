@@ -109,6 +109,20 @@ const devTeamData = [
     //   },
     // ],
   },
+  {
+    image: "bilal.jpg",
+    name: "Muhammad Bilal",
+    designation: "Senior Software Engineer",
+    location: "Lahore, Punjab",
+    description:
+      "Full Stack Wizard: Crafting Seamless Web Solutions with Django & .Net Core",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
 ];
 const bdTeamData = [
   {
@@ -179,11 +193,11 @@ const AboutUs = () => {
               <div className="col-lg-12">
                 <div className="inner pt--80 text-center">
                   <div>
-                    <h3 className="rn-sub-badge">
+                    {/* <h3 className="rn-sub-badge">
                       <span className="theme-gradient">
                         Our Company's About Details.
                       </span>
-                    </h3>
+                    </h3> */}
                   </div>
                   <h1 className="title display-one">
                     Where Innovation <br /> Meets Affordability{" "}
@@ -199,11 +213,12 @@ const AboutUs = () => {
         <div className="service-area rn-section-gapTop">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6" style={{display: "flex", margin: "auto"}}>
+              <div
+                className="col-lg-6"
+                style={{ display: "flex", margin: "auto" }}
+              >
                 <div className="content">
-                  <h3 className="title"  >
-                  Your  Software Talent Partner
-                  </h3>
+                  <h3 className="title">Your Software Talent Partner</h3>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -250,7 +265,7 @@ const AboutUs = () => {
               </div>
             </div>
             <ServiceOne
-              serviceStyle="service__style--1 bg-color-blackest radius mt--25"
+              serviceStyle="service__style--1 icon-circle-style with-working-process"
               textAlign="text-center"
             />
           </div>
@@ -356,7 +371,6 @@ const AboutUs = () => {
 
         <FooterFour />
         <Copyright />
-
       </main>
     </>
   );

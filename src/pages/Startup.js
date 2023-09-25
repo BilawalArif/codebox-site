@@ -13,6 +13,8 @@ import TeamOne from "../elements/team/TeamOne";
 import ServiceOne from "../elements/service/ServiceOne";
 import CounterUpFour from "../elements/counterup/CounterUpFour";
 import Copyright from "../common/footer/Copyright";
+import ServiceThree from "../elements/service/ServiceThree";
+import ServiceFive from "../elements/service/ServiceFive";
 
 // var BlogListData = BlogClassicData.slice(0, 3);
 
@@ -31,12 +33,11 @@ const teamData = [
     // ],
   },
   {
-    image: "team-02.jpg",
+    image: "haider.jpg",
     name: "Haider",
-    designation: "App Developer",
-    location: "Bangladesh",
-    description:
-      "Yes, I am a product designer. I have a passion for product design.",
+    designation: "Co-Founder",
+    location: "Lahore, Punjab",
+    description: "Building next-gen software",
     // socialNetwork: [
     //   {
     //     icon: <FiLinkedin />,
@@ -51,13 +52,13 @@ const BannerData = [
     image: `/images/bg/bg-image-01.jpg`,
     title: "Empowering Your Online Presence",
     description:
-    "We elevate businesses through captivating websites and digital experiences.",
+      "We elevate businesses through captivating websites and digital experiences.",
   },
   {
     image: `/images/bg/bg-image-01.jpg`,
     title: "Digital Excellence Made Affordable",
     description:
-    "We Craft Websites that Speak Your Brand's Language and Drive Success.",
+      "We Craft Websites that Speak Your Brand's Language and Drive Success.",
   },
 ];
 
@@ -124,7 +125,7 @@ const Startup = () => {
                   textAlign="text-center"
                   radiusRounded=""
                   subtitle="Our Experience"
-                  title="25+ years work Experience"
+                  title="5+ years work Experience"
                   description=""
                 />
               </div>
