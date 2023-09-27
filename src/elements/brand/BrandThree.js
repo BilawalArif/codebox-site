@@ -34,6 +34,15 @@ const BrandList = [
   {
     image: "./images/brand/image-11.png",
   },
+  {
+    image: "./images/brand/image-12.png",
+  },
+  {
+    image: "./images/brand/image-13.png",
+  },
+  {
+    image: "./images/brand/brand-11.png",
+  },
 ];
 
 const BrandThree = ({ brandStyle }) => {

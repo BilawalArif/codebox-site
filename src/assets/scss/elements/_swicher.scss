@@ -21,7 +21,7 @@ body {
     padding: 0;
     margin-left: 10px;
     width: 40px;
-    background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 95%/200% 100%;
+    background: var(--color-primary-rgba);
     display: flex;
     justify-content: center;
     height: 40px;
