@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
+import React, { Component } from "react";
+import GoogleMapReact from "google-map-react";
+import { BiMap } from "react-icons/bi";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 class GoogleMapStyle extends Component {
   static defaultProps = {
     center: {
-      lat: 59.95,
-      lng: 30.33
+      lat: 31.448735,
+      lng: 74.287171,
     },
-    zoom: 11
+    zoom: 11,
   };
 
   render() {
@@ -21,9 +22,9 @@ class GoogleMapStyle extends Component {
           defaultZoom={this.props.zoom}
         >
           <AnyReactComponent
-            lat={59.955413}
-            lng={30.337844}
-            text="My Marker"
+            lat={31.448735}
+            lng={74.287171}
+            text={<BiMap style={{ height: "30px", width: "40px" }} />}
           />
         </GoogleMapReact>
       </div>

@@ -23,8 +23,9 @@
             min-height: 150px;
             overflow: hidden;
             img {
-                border-radius: 100%;
-            }
+                width: 100%; /* Ensure the image takes up the available width */
+                height: 100%; /* Ensure the image takes up the available height */
+                object-fit: cover;             }
         }
 
         .content {

@@ -6,22 +6,22 @@ const ServiceList = [
     {
         icon: '1',
         title: 'Web Development',
-        description: 'There are many variations variations have.'
+        description: 'Crafting Dynamic Websites'
     },
     {
         icon: '2',
         title: 'Design & Creative',
-        description: 'Passages there are many variations have.'
+        description: 'Inspiring Visual Solutions'
     },
     {
         icon: '3',
         title: 'App Development',
-        description: 'Variations There variations many Lorem Ipsum.'
+        description: 'Building Innovative Mobile Apps'
     },
     {
         icon: '4',
-        title: 'Product Designer',
-        description: 'Variations There variations of Lorem Ipsum.'
+        title: 'Blockchain',
+        description: 'Powering Trust with Blockchain'
     },
 ]
 

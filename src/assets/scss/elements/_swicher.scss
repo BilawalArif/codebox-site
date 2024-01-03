@@ -21,12 +21,13 @@ body {
     padding: 0;
     margin-left: 10px;
     width: 40px;
-    background: var(--color-secondary);
+    background: var(--color-primary-rgba);
     display: flex;
     justify-content: center;
     height: 40px;
     align-items: center;
     border-radius: 100%;
+    
 }
 .my_switcher {
     display: flex;
@@ -68,6 +69,7 @@ body {
                 &.dark {
                     color: #18191A;
                 }
+                
             }
         }
     }

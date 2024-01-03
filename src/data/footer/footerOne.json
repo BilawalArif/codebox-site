@@ -1,117 +1,56 @@
 [
     {
         "id": 1,
-        "title": "Create Website By Doob So Quick Download And Make Your Site."
+        "title": "Expand Your Business With CodeBox!"
     },
-
     {
         "id": 2,
-        "title": "Services",
+        "title": "Home",
+        "url": "/",
         "quicklink": [
             {
                 "id": 1,
-                "text": "About",
-                "url": "/about"
-            },
-            {
-                "id": 2,
-                "text": "Portfolio",
-                "url": "/portfolio"
-            },
-            {
-                "id": 3,
-                "text": "Contact",
-                "url": "/contact"
-            },
-            {
-                "id": 4,
-                "text": "Service",
-                "url": "/service"
+                "text": "Home",
+                "url": "/"
             }
         ]
     },
-
     {
         "id": 3,
-        "title": "Solutions",
-        "quicklink": [
-            {
-                "id": 1,
-                "text": "Gallery",
-                "url": "/gallery"
-            },
-            {
-                "id": 2,
-                "text": "About Us",
-                "url": "/about-us"
-            },
-            {
-                "id": 3,
-                "text": "Testimonial",
-                "url": "/testimonial"
-            },
-            {
-                "id": 4,
-                "text": "Timeline",
-                "url": "/timeline"
-            }
-        ]
-    },
-
-    {
-        "id": 4,
-        "title": "Company",
-        "quicklink": [
-            {
-                "id": 1,
-                "text": "Pricing",
-                "url": "/pricing"
-            },
-            {
-                "id": 2,
-                "text": "Team",
-                "url": "/team"
-            },
-            {
-                "id": 3,
-                "text": "Advance Tab",
-                "url": "/advance-tab"
-            },
-            {
-                "id": 4,
-                "text": "Service",
-                "url": "/service"
-            }
-        ]
-    },
-
-    {
-        "id": 5,
-        "title": "Resources",
+        "title": "About",
+        "url": "/about-us",
         "quicklink": [
             {
                 "id": 1,
                 "text": "About",
-                "url": "/about"
-            },
-            {
-                "id": 2,
-                "text": "Portfolio",
-                "url": "/portfolio"
-            },
-            {
-                "id": 3,
-                "text": "Contact",
-                "url": "/contact"
-            },
-            {
-                "id": 4,
-                "text": "Service",
-                "url": "/service"
+                "url": "/about-us"
             }
         ]
     },
-
+    {
+        "id": 4,
+        "title": "Contact",
+        "url": "/contact",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "Contact",
+                "url": "/contact"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "FAQ's",
+        "url": "/faqs",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "FAQ's",
+                "url": "/faqs"
+            }
+        ]
+    },
     {
         "id": 6,
         "title": "Stay With Us.",

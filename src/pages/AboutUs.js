@@ -1,22 +1,178 @@
 import React from "react";
 import SEO from "../common/SEO";
-import HeaderTopNews from "../common/header/HeaderTopNews";
 import HeaderOne from "../common/header/HeaderOne";
 import FooterFour from "../common/footer/FooterFour";
 import BrandThree from "../elements/brand/BrandThree";
-import AboutFour from "../elements/about/AboutFour";
 import ServiceOne from "../elements/service/ServiceOne";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 import CounterUpFour from "../elements/counterup/CounterUpFour";
-import TeamFour from "../elements/team/TeamFour";
-import TimelineTwo from "../elements/timeline/TimelineTwo";
 import Separator from "../elements/separator/Separator";
 import AboutTwo from "../elements/about/AboutTwo";
+import TeamOne from "../elements/team/TeamOne";
+import Copyright from "../common/footer/Copyright";
+
+const devTeamData = [
+  {
+    image: "hananBabar.jpg",
+    name: "Hanan Babar",
+    designation: " Web Team Lead",
+    location: "Lahore, Punjab",
+    description:
+      "As a Web Team Lead, I oversee web development projects and promote team collaboration to deliver high-quality solutions.",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+  {
+    image: "awaisMajeed.jpg",
+    name: "Awais Majeed",
+    designation: "React Developer",
+    location: "Lahore, Punjab",
+    description:
+      "Experienced React developer skilled in building dynamic and responsive web applications using React.js",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+  {
+    image: "mohsinAli.jpeg",
+    name: "Mohsin Ali",
+    designation: "Full Stack Developer (MERN + AWS)",
+    location: "Lahore, Punjab",
+    description: "Experienced in Web Applications development and AWS Services",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+  {
+    image: "arhamIrfan.jpg",
+    name: "Arham Irfan",
+    designation: "MERN Stack Developer",
+    location: "Lahore, Punjab",
+    description:
+      "Experienced full stack developer specializing in web applications",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+  {
+    image: "bilawal.jpg",
+    name: "Bilawal Arif",
+    designation: "MERN Stack Developer",
+    location: "Lahore, Punjab",
+    description:
+      "Experienced full stack developer specializing in web applications",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+  {
+    image: "umarFarooq.jpg",
+    name: "Umar Farooq",
+    designation: "React Developer",
+    location: "Lahore, Punjab",
+    description:
+      "Experienced React developer skilled in building dynamic and responsive web applications.",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+  {
+    image: "zainbintanveer.jpg",
+    name: "Zain Tanveer",
+    designation: "Full Stack Developer (REACT + .NET)",
+    location: "Lahore, Punjab",
+    description:
+      "Experienced full stack developer specializing in scalable web applications.",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+  {
+    image: "bilal.jpg",
+    name: "Muhammad Bilal",
+    designation: "Senior Software Engineer",
+    location: "Lahore, Punjab",
+    description:
+      "Full Stack Wizard: Crafting Seamless Web Solutions with Django & .Net Core",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+];
+const bdTeamData = [
+  {
+    image: "zainJaved.jpg",
+    name: "Zain Sarmad",
+    designation: "Business Development Executive",
+    location: "Lahore, Punjab",
+    description:
+      "A business developer who knows how to nurture and grow direct sales. I like making new connections with a hunger to always learn new things.",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+  {
+    image: "maham.jpg",
+    name: "Maham Aslam",
+    designation: "Business Developer",
+    location: "Faisalabad, Punjab",
+    description:
+      "Myself Maham Aslam from Faisalabad working as a Business Developer. My major is Textile Designing and I am working here to learn new things apart from my field.",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+  {
+    image: "wajahat.jpg",
+    name: "Wajahat Rauf",
+    designation: "Business Developer",
+    location: "Lahore, Punjab",
+    description:
+      "A business developer who knows how to nurture and grow direct sales. I like making new connections with a hunger to always learn new things.",
+    // socialNetwork: [
+    //   {
+    //     icon: <FiLinkedin />,
+    //     url: "#",
+    //   },
+    // ],
+  },
+];
 
 const AboutUs = () => {
   return (
     <>
-      <SEO title="About Us" />
+      <SEO title="CodeBox || About Us" />
       <main className="page-wrapper">
         {/* <HeaderTopNews /> */}
         <HeaderOne
@@ -29,7 +185,7 @@ const AboutUs = () => {
           className="slider-area slider-style-1 height-850 bg_image"
           data-black-overlay="7"
           style={{
-            backgroundImage: `url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80)`,
+            backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-03.jpeg)`,
           }}
         >
           <div className="container">
@@ -37,11 +193,11 @@ const AboutUs = () => {
               <div className="col-lg-12">
                 <div className="inner pt--80 text-center">
                   <div>
-                    <h3 className="rn-sub-badge">
+                    {/* <h3 className="rn-sub-badge">
                       <span className="theme-gradient">
                         Our Company's About Details.
                       </span>
-                    </h3>
+                    </h3> */}
                   </div>
                   <h1 className="title display-one">
                     Where Innovation <br /> Meets Affordability{" "}
@@ -57,11 +213,12 @@ const AboutUs = () => {
         <div className="service-area rn-section-gapTop">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
+              <div
+                className="col-lg-6"
+                style={{ display: "flex", margin: "auto" }}
+              >
                 <div className="content">
-                  <h3 className="title">
-                    Codebox <br /> Your USA Software Talent Partner
-                  </h3>
+                  <h3 className="title">Your Software Talent Partner</h3>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -108,14 +265,14 @@ const AboutUs = () => {
               </div>
             </div>
             <ServiceOne
-              serviceStyle="service__style--1 bg-color-blackest radius mt--25"
+              serviceStyle="service__style--1 icon-circle-style with-working-process"
               textAlign="text-center"
             />
           </div>
         </div>
         {/* End Service Area  */}
 
-        <div className="rwt-timeline-area rn-section-gapBottom">
+        {/* <div className="rwt-timeline-area rn-section-gapBottom">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -123,14 +280,36 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        {/* <div className="rn-accordion-area rn-section-gap">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-10 offset-lg-1">
+                <SectionTitle
+                  textAlign="text-center"
+                  radiusRounded=""
+                  subtitle="FAQ's"
+                  title="
+                  Frequently Asked Questions"
+                  description=""
+                />
+              </div>
+            </div>
+            <div className="row mt--35 row--20">
+              <div className="col-lg-10 offset-lg-1">
+                <AccordionOne customStyle="rn-accordion-04" />
+              </div>
+            </div>
+          </div>
+        </div> */}
 
         <Separator />
 
-        <AboutTwo image="./images/about/contact-image.jpg" />
+        <AboutTwo />
 
         {/* Start Elements Area  */}
-        <div className="rwt-counterup-area pb--100">
+        {/* <div className="rwt-counterup-area pb--100">
           <div className="container mt_dec--30">
             <CounterUpFour
               column="col-lg-3 col-md-6 col-sm-6 col-12"
@@ -138,7 +317,7 @@ const AboutUs = () => {
               textALign="text-center"
             />
           </div>
-        </div>
+        </div> */}
         {/* End Elements Area  */}
 
         <Separator />
@@ -151,21 +330,47 @@ const AboutUs = () => {
                 <SectionTitle
                   textAlign="text-center"
                   radiusRounded=""
-                  subtitle="Our Corporate Team."
-                  title="Corporate Team Member."
+                  subtitle="Our Development Team."
+                  title="Development Team Member."
                   description=""
                 />
               </div>
             </div>
-            <TeamFour
-              column="col-lg-6 col-xl-3 col-md-6 col-12 mt--30"
-              teamStyle="team-style-three"
+            <TeamOne
+              column="col-lg-3 col-md-6 col-12 mt--30"
+              teamStyle="team-style-default"
+              teamData={devTeamData}
+            />
+          </div>
+        </div>
+        {/* End Elements Area  */}
+        <Separator />
+
+        {/* Start Elements Area  */}
+        <div className="rwt-team-area rn-section-gap">
+          <div className="container">
+            <div className="row mb--20">
+              <div className="col-lg-12">
+                <SectionTitle
+                  textAlign="text-center"
+                  radiusRounded=""
+                  subtitle="Our Business Developer Team."
+                  title="Business Developer Team Member."
+                  description=""
+                />
+              </div>
+            </div>
+            <TeamOne
+              column="col-lg-4 col-md-6 col-12 mt--30"
+              teamStyle="team-style-default"
+              teamData={bdTeamData}
             />
           </div>
         </div>
         {/* End Elements Area  */}
 
         <FooterFour />
+        <Copyright />
       </main>
     </>
   );

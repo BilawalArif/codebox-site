@@ -6,7 +6,10 @@ const PortfolioItem = ({ portfolio }) => {
     <div className="rwt-card">
       <div className="inner">
         <div className="thumbnail">
-          <figure className="card-image">
+          <figure
+            className="card-image"
+            style={{ maxHeight: "315px", minHeight: "315px" }}
+          >
             <Link
               to={process.env.PUBLIC_URL + `/portfolio-details/${portfolio.id}`}
             >
@@ -14,7 +17,7 @@ const PortfolioItem = ({ portfolio }) => {
                 className="img-fluid"
                 src={portfolio.portfolioImage}
                 alt="Portfolio-01"
-                // style={{ height: "1270", width: "950" }}
+                style={{ height: "auto", width: "100%", objectFit: "cover" }}
               />
             </Link>
           </figure>
